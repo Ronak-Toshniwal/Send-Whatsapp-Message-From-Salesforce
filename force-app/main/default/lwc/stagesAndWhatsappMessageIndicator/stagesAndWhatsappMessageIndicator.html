@@ -1,0 +1,14 @@
+<template>
+    <lightning-card  title="Status Update On Whstsapp">
+       
+        <div slot="footer">
+           <div>
+                <lightning-input value={recordPhone} aria-readonly="true"></lightning-input>
+           </div>
+           <div>
+                <lightning-input value={message} onchange={msgSetter} ></lightning-input>
+           </div>
+       <lightning-button variant="brand" label="Send Message and Document" onclick={sendMsg}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
