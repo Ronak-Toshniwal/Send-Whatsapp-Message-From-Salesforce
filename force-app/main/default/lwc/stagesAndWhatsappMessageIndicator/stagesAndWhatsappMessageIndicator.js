@@ -30,7 +30,7 @@ export default class StagesAndWhatsappMessageIndicator extends LightningElement 
        
     }    
 
-    recordPhone = '919799280040'
+    recordPhone = '919999999999'
     message = ''
     msgSetter(event){
         this.message = event.target.value;
