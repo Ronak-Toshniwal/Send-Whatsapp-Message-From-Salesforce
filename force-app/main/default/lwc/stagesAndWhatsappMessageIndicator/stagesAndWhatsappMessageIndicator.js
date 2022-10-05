@@ -4,7 +4,7 @@ import sendDocToDocument from '@salesforce/apex/getMetadataAndRecordData.sendWAD
 
 
 export default class StagesAndWhatsappMessageIndicator extends LightningElement {
-    @api recordId;
+    //@api recordId;
     mapWithPicklistValues = new Set();
 
     /*
